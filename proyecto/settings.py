@@ -71,6 +71,7 @@ INSTALLED_APPS = [
     "django_unicorn",
     "djmoney",
     "martor",
+    "sms",
     # Seguridad
     "allauth",
     "allauth.account",
@@ -80,6 +81,7 @@ INSTALLED_APPS = [
     "allauth.usersessions",
     # Aplicaciones
     "base.apps.BaseConfig",
+    "mensajes.apps.MensajesConfig",
 ]
 
 MIDDLEWARE = [
